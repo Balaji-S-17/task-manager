@@ -1,0 +1,12 @@
+
+### Create task
+POST http://localhost:8080/tasks
+Content-Type: application/json
+
+{
+  "title": "Learn Docker",
+  "description": "Complete Docker basics"
+}
+
+### Get tasks
+GET http://localhost:8080/tasks
