@@ -6,9 +6,8 @@ terraform {
     }
   }
 }
-
 provider "kubernetes" {
-  config_path = "~/.kube/config"
+  config_path = "C:/Users/Balaji S/.kube/config"
 }
 
 resource "kubernetes_deployment" "task_manager" {
